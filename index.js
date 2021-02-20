@@ -20,9 +20,7 @@ module.exports = {
             oneOf.test && oneOf.use &&
             (`${oneOf.test}`.includes('css') || `${oneOf.test}`.includes('styles'))
           ) {
-            const options = pluginOptions && pluginOptions.patterns ? {
-              patterns: pluginOptions.patterns,
-            } : {};
+            const options = pluginOptions && pluginOptions.patterns ? pluginOptions : {};
             output.module.rules[ruleIndex].oneOf[oneOfIndex].use.push({
               loader: 'style-resources-loader',
               options,
