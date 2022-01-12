@@ -1,8 +1,11 @@
 {
   "name": "craco-style-resources-loader",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A craco plugin to use styles-resources-loader with create-react-app",
-  "repository": "github:spacedawwwg/craco-style-resources-loader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spacedawwwg/craco-style-resources-loader.git"
+  },
   "main": "index.js",
   "author": "Paul Welsh",
   "license": "MIT",
@@ -15,23 +18,21 @@
     "style-resources-loader"
   ],
   "devDependencies": {
-    "@craco/craco": "^6.4.3",
     "commitlint": "^16.0.2",
     "eslint": "8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
-    "jest": "^27.4.7",
     "lint-staged": "^12.1.7",
-    "prettier": "^2.5.1",
-    "react-scripts": "^5.0.0"
-  },
-  "peerDependencies": {
-    "@craco/craco": "^6.4.3",
-    "react-scripts": "^5.0.0"
+    "prettier": "^2.5.1"
   },
   "dependencies": {
     "style-resources-loader": "^1.5.0"
+  },
+  "peerDependencies": {
+    "@craco/craco": "^6.4.3",
+    "react-scripts": "^5.0.0",
+    "webpack": "^4.0.0"
   },
   "husky": {
     "hooks": {
