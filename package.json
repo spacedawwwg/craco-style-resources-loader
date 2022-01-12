@@ -15,23 +15,23 @@
     "style-resources-loader"
   ],
   "devDependencies": {
-    "@craco/craco": "^6.3.0",
-    "commitlint": "^13.1.0",
-    "eslint": "7.32.0",
+    "@craco/craco": "^6.4.3",
+    "commitlint": "^16.0.2",
+    "eslint": "8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.2",
-    "jest": "^27.2.1",
-    "lint-staged": "^11.1.2",
-    "prettier": "^2.4.1",
-    "react-scripts": "^4.0.3"
+    "husky": "^7.0.4",
+    "jest": "^27.4.7",
+    "lint-staged": "^12.1.7",
+    "prettier": "^2.5.1",
+    "react-scripts": "^5.0.0"
   },
   "peerDependencies": {
-    "@craco/craco": "^6.3.0",
-    "react-scripts": "^4.0.3"
+    "@craco/craco": "^6.4.3",
+    "react-scripts": "^5.0.0"
   },
   "dependencies": {
-    "style-resources-loader": "^1.4.1"
+    "style-resources-loader": "^1.5.0"
   },
   "husky": {
     "hooks": {
