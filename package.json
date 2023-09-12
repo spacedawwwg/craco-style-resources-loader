@@ -24,7 +24,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^14.0.1",
-    "prettier": "^2.5.1"
+    "prettier": "^3.0.3"
   },
   "dependencies": {
     "style-resources-loader": "^1.5.0"
