@@ -1,6 +1,6 @@
 {
   "name": "craco-style-resources-loader",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "A craco plugin to use styles-resources-loader with create-react-app",
   "repository": {
     "type": "git",
@@ -45,5 +45,6 @@
       "eslint --quiet --fix",
       "git add"
     ]
-  }
+  },
+  "packageManager": "yarn@3.6.3"
 }
